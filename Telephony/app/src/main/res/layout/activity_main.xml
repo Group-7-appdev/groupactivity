@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#009688"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Contacts:"
+        android:textSize="50sp"
+        android:textColor="#52CDC2"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/str_contact_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sir\n09353100140"
+            android:textSize="20dp"
+            android:layout_marginTop="50dp" />
+
+        <ImageButton
+            android:id="@+id/btn_message1"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="50dp"
+            android:background="#52CDC2"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/ic__message" />
+
+        <ImageButton
+            android:id="@+id/btn_call1"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="50dp"
+            android:background="#52CDC2"
+            android:src="@drawable/ic_phone" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/str_contact_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mama\n09566809353"
+            android:textSize="20dp" />
+
+        <ImageButton
+            android:id="@+id/btn_message2"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:background="#52CDC2"
+            android:layout_marginLeft="50dp"
+            android:src="@drawable/ic__message" />
+
+        <ImageButton
+            android:id="@+id/btn_call2"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:background="#52CDC2"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/ic_phone" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/str_contact_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Papa\n09158381787"
+            android:textSize="20dp" />
+
+        <ImageButton
+            android:id="@+id/btn_message3"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:background="#52CDC2"
+            android:layout_marginLeft="50dp"
+            android:src="@drawable/ic__message"  />
+
+        <ImageButton
+            android:id="@+id/btn_call3"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:background="#52CDC2"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/ic_phone" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/str_contact_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ate\n09951959136"
+            android:textSize="20dp" />
+
+        <ImageButton
+            android:id="@+id/btn_message4"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:background="#52CDC2"
+            android:layout_marginLeft="50dp"
+            android:src="@drawable/ic__message"  />
+
+        <ImageButton
+            android:id="@+id/btn_call4"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:background="#52CDC2"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/ic_phone" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/str_contact_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kuya\n09509244149"
+            android:textSize="20dp" />
+
+        <ImageButton
+            android:id="@+id/btn_message5"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:background="#52CDC2"
+            android:layout_marginLeft="50dp"
+            android:src="@drawable/ic__message"  />
+
+        <ImageButton
+            android:id="@+id/btn_call5"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:background="#52CDC2"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/ic_phone" />
+    </LinearLayout>
+
+</LinearLayout>
